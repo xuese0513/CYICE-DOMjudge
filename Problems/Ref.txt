@@ -1,2 +1,1 @@
 A : Sprout Online Judge 350
-B : Online Judge 11068
