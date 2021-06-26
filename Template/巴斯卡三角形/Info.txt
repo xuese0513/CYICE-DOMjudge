@@ -1,0 +1,24 @@
+
+【題目資訊】
+
+ - 名稱：巴斯卡三角形
+ - 縮寫：巴斯卡三角形
+ - 顏色：yellow
+ - 參考：https://neoj.sprout.tw/problem/350/
+ - 題型：math, loop, recursion, building-table
+ - 時間限制：1 sec
+ - 空間限制：256 MB
+
+
+【測資（置於testcases資料夾中）】
+
+ - 範例測資：[1.in, 1.ans]
+ - 極端測資：[2.in, 2.ans]
+ - 隨機測資：[3.in, 3.ans]
+
+
+【其他附檔】
+
+ - 題目文件：巴斯卡三角形.pdf、巴斯卡三角形.docx
+ - 範例程式碼：code/Sample Code.cpp
+ - 隨機測資生成器：code/Random Testcases Generator.cpp
