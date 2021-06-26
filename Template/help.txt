@@ -1,0 +1,16 @@
+題目文件必需要轉成pdf檔，題目請盡量自行編寫，或是參考原題目進行改寫，
+如果生成測資、想題目或是時間上有遇到瓶頸的話，都可以盡量及早和我說。
+(如果編輯題目時是用像是doc檔的話，還麻煩附上原本的題目檔案)
+
+選填項目：
+ - 顏色
+ - 題型
+ - 時間限制
+ - 空間限制
+(顏色可以隨便選，出題目最難的部分應該會是生成測資，如果不知道該怎麼生的話還記得來問我)
+
+以下提供一些題目庫參考：
+> CPE一星題：https://cpe.cse.nsysu.edu.tw/environment.php#starList
+> 資訊之芽C語法班：https://neoj.sprout.tw/group/34/
+> Green Judge：http://www.tcgs.tc.edu.tw:1218/Problems?tab=tab01&page=1
+> LeetCode：https://leetcode.com/problemset/all/
