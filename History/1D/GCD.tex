@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[a4paper,top=0.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{CTEX}
+\usepackage{type1cm}
+
+\begin{document}
+    %\setlength{\lineskip}{2pt}
+    %\setlength{\parskip}{5pt}
+    \begin{center} 
+        {\LARGE \textbf{GCD}}
+        \\ {\large (Time\  Limit: 1 sec, \ Memory Limit: 1 MB)}
+    \end{center}
+    {\Large \textbf {Description}}
+    \\\rule[5pt]{18cm}{0.01em}
+    \fontsize{12pt}{11pt} \selectfont
+    \\Given the value of N, you will have to find the value of G. The definition of G is given below:
+    \\  \[ G=\sum \limits_{i=1}^{i<N} \sum \limits_{j=i+1}^{j\leq N} GCD(i,j) \]
+    Here GCD(i, j) means the greatest common divisor of integer i and integer j.
+    \\  For those who have trouble understanding summation notation, the meaning of G is given in the
+    following code:
+    \\\\ {\Large \textbf{G=0;
+    \\for (i=1; i<N; i++)
+    \\for(j=i+1; i<=N; j++) \\ \{  \\ G+=GCD(i ,j) ; \\ \}
+   \\  /*Here GCD() is a function that finds \\ the greatest common divisor of the two \\ input numbers*/ }}\\
+   \\\\ {\Large \textbf{Input}} %\fontsize{14pt}{1pt} \selectfont
+    \\ \rule[5pt]{18cm}{0.02em} 
+    \\The input file contains at most 100 lines of inputs. Each line contains an integer  N (1 < N < 501).
+    The meaning of N is given in the problem statement. Input is terminated by a line containing a single
+    zero. This zero should not be processed. 
+    \\\\{ \Large \textbf{Output}} %\fontsize{14pt}{1pt} \selectfont
+    \\\rule[5pt]{18cm}{0.01em} 
+    \\For each line of input produce one line of output. This line contains the value of G for corresponding
+    N. 
+    \\\\{\Large \textbf{Sample  Input/Output}}
+    \\\rule[5pt]{18cm}{0.01em}
+    \begin{table}[h] \Large
+        \centering  
+        \begin{tabular}{| p{8cm} | p{8cm} |}%l(left)居左显示 r(right)居右显示 c居中显示
+        \hline 
+        \fontsize{18pt}{1pt}
+        \Large Input&\Large Output
+        \\ \hline  
+        10&67\\
+        100&13015 \\ 
+        500&442011 \\
+        0& \\
+        \hline 
+        \end{tabular}
+    \end{table}
+\end{document}
