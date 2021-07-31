@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[a4paper,top=0.5cm, down=0.5cm, left=1.5cm,right=1.5cm]{geometry}
+\usepackage{CTEX}
+\usepackage{type1cm}
+\usepackage{enumerate}
+
+\begin{document}
+    %\setlength{\lineskip}{2pt}
+    %\setlength{\parskip}{5pt}
+    \begin{center} 
+        {\LARGE \textbf{Number Chain}}
+        \\ {\large (Time\  Limit: 1 sec, \ Memory Limit: 512 MB)}
+    \end{center}
+    {\Large \textbf {Description}}
+    \\\rule[5pt]{18cm}{0.01em}
+    \fontsize{12pt}{11pt} \selectfont
+    \\Given a number, we can form a number chain by
+    \begin{enumerate}
+        \item  arranging its digits in descending order
+        \item  arranging its digits in ascending order
+        \item subtracting the number obtained in (2) from the number obtained (1) to form a new number
+        \item and repeat these steps unless the new number has already appeared in the chain
+      \end{enumerate}
+   {\Large \textbf{Input}} %\fontsize{14pt}{1pt} \selectfont
+    \\ \rule[5pt]{18cm}{0.02em} 
+    \\The input consists of a sequence of positive numbers, all less than 109, each on its own line, terminated
+    by ‘0’. The input file contains at most 5000 numbers.
+    \\\\{ \Large \textbf{Output}} %\fontsize{14pt}{1pt} \selectfont
+    \\\rule[5pt]{18cm}{0.01em} 
+    \\原本的數字及中間計算的過程，鏈長總長度，有可能將包含超過 1000 個不同的數字。
+    \\\\{ \Large \textbf{Constraints}}
+    \\\rule[5pt]{18cm}{0.01em} 
+    \\ $ \bullet \  {\Large 2  \leq  n \leq 2 \cdot  10^5  }$
+    \\\\{\Large \textbf{Sample  Input/Output}}
+    \\\rule[5pt]{18cm}{0.01em}
+    \begin{table}[h] \Large
+        \centering  
+        \begin{tabular}{| p{8cm} | p{8cm} |}%l(left)居左显示 r(right)居右显示 c居中显示
+        \hline 
+        \fontsize{18pt}{1pt}
+        \Large Input&\Large Output
+        \\ \hline  
+        123456789 & Original number was 123456789 \\
+         & 987654321 - 123456789 = 864197532\\
+         & 987654321 - 123456789 = 864197532\\
+        & Chain length 2\\
+        \hline 
+        1234 & Original number was 1234\\
+        & 4321 - 1234 = 3087\\
+        &8730 - 378 = 8352\\
+        &8532 - 2358 = 6174\\
+        &7641 - 1467 = 6174\\
+        &Chain length 4 \\
+        \hline
+        444 & Original number was 444\\
+        &444 - 444 = 0\\
+        &0 - 0 = 0\\
+        &Chain length 2\\
+        \hline
+        0 & \\
+        \hline
+        \end{tabular}
+    \end{table}
+\end{document}

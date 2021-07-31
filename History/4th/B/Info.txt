@@ -1,0 +1,23 @@
+
+【題目資訊】
+
+ - 名稱：硬幣樓梯
+ - 縮寫：硬幣樓梯
+ - 顏色：#500028
+ - 參考：https://leetcode.com/problems/arranging-coins/
+ - 時間限制：1sec
+ - 空間限制：256MB
+
+
+【測資（置於testcase資料夾中）】
+
+ - 範例測資：[1.in, 1.ans]
+ - 極端測資：[2.in, 2.ans]
+ - 隨機測資：[3.in, 3.ans]
+
+
+【其他附檔】
+ 
+ - 題目文件： 硬幣樓梯.docx、硬幣樓梯.pdf
+ - 範例程式碼 :code/coinstair.cpp
+ - 隨機測資生成器 :coinsPro.cpp 

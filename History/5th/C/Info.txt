@@ -1,0 +1,22 @@
+【題目資訊】
+
+ - 名稱：排列組合
+ - 題型：recursion, string
+ - 顏色：red
+ - 參考：https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+ - 時間限制：? sec
+ - 空間限制：? MB
+
+
+【測資(Testcases)】
+
+ - 範例測資：(1.in, 1.ans)
+ - 極端測資：?
+ - 隨機測資：?
+
+
+【其他附檔】
+
+ - 題目文件：排列組合.pdf、排列組合.docx
+ - 範例程式碼：permutation.cpp / permutation-easy.cpp
+ - 隨機測資生成器：?

@@ -1,0 +1,20 @@
+【題目資訊】
+
+ - 名稱：預測贏家
+ - 題型：recursion
+ - 顏色：(optional, CSS color)
+ - 來源：https://leetcode.com/problems/predict-the-winner/
+ - 時間限制：1 sec
+ - 空間限制：256 MB
+ 
+【測資(Testcases)】
+
+ - 範例測資：1.in 1.out
+ - 極端測資：2.in 2.out
+ - 隨機測資：3.in 3.out
+
+【其他附檔】
+ 
+ - 題目文件：預測贏家.pdf、預測贏家.docx
+ - 範例程式碼 :predit_the_winner.cpp
+ - 隨機測資生成器 : test.cpp

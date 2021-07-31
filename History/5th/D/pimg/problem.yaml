@@ -1,0 +1,5 @@
+# Problem exported by DOMjudge on 2021-07-22T19:22:46+08:00
+name: '5C 預測贏家'
+limits:
+    memory: 128
+    output: 1
