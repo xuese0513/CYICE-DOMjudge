@@ -1,0 +1,20 @@
+【題目資訊】
+
+ - 名稱：完美平方數
+ - 題型：BFS
+ - 顏色：(optional, CSS color)
+ - 來源：https://leetcode.com/problems/perfect-squares/
+ - 時間限制：1 sec
+ - 空間限制：256 MB
+ 
+【測資(Testcases)】
+
+ - 範例測資：1.in 1.out
+ - 極端測資：2.in 2.out
+ - 隨機測資：3.in 3.out
+
+【其他附檔】
+ 
+ - 題目文件：完美平方數.pdf、完美平方數.docx
+ - 範例程式碼 :perfect_squares.cpp
+ - 隨機測資生成器 : test.cpp

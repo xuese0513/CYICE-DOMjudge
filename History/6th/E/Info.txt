@@ -1,0 +1,20 @@
+【題目資訊】
+
+ - 名稱：核戰爭
+ - 題型：八皇后、backtracking
+ - 顏色：(Tan, #D2B48C)
+ - 參考：http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b039
+ - 時間限制：1 sec
+ - 空間限制：256 MB
+ 
+【測資(Testcases)】
+
+ - 範例測資：(1.in, 1.out)
+ - 極端測資：(9.in, 9.out)
+ - 隨機測資：(2~8.in, 2~8.out)
+
+【其他附檔】
+ 
+ - 題目文件： 核戰爭.pdf、核戰爭.docx
+ - 範例程式碼 :Code/Sample Code.cpp
+ - 隨機測資生成器 : Code/Random Testcases Generator.cpp

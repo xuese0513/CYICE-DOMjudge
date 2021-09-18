@@ -1,0 +1,23 @@
+
+【題目資訊】
+
+ - 名稱：combination
+ - 縮寫：backtracking
+ - 顏色：#500028
+ - 參考：https://leetcode.com/problems/combination-sum/
+ - 時間限制：1sec
+ - 空間限制：128MB
+
+
+【測資（置於testcase資料夾中）】
+
+ - 範例測資：[1.1.ans]
+ - 極端測資：[[3.in,3,ans],[4.in,4.ans],[5.in,5.ans],[6.in,6.ans],[6.in,6.ans],[7.in,7.ans]]
+ - 隨機測資：[8.in,8.ans]
+
+
+【其他附檔】
+ 
+ - 題目文件： com.docx,com.pdf
+ - 範例程式碼 :code/combination_number.cpp
+ - 隨機測資生成器 : 同上
